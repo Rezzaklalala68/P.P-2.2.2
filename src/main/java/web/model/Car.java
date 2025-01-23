@@ -1,10 +1,10 @@
-package model;
+package web.model;
 
 import java.util.Objects;
 import java.util.UUID;
 
 public class Car {
-    private UUID id = UUID.randomUUID();
+    private final UUID id = UUID.randomUUID();
     private String brand;
     private String driver;
 
